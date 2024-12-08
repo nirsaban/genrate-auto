@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Native support for async/await
+    "module": "CommonJS", // Suitable for Node.js
+    "lib": ["ES2017", "DOM"], // Include necessary libraries
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
